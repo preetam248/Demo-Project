@@ -54,7 +54,8 @@ public class App {
                 ArrayList<Employee> list = EmpDAO.readData();
                 for(Employee ele : list){
                     System.out.println(ele);
-                }     
+                }    
+                System.out.println("_____End of table_____"); 
                 break;
 
         }
